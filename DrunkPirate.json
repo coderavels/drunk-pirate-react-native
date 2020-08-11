@@ -1,0 +1,743 @@
+[
+  {
+    "Drink": {
+      "percentage": 20,
+      "tasks": [
+        {
+          "name": "everybody drink",
+          "id": 1,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "choose two people to drink with",
+          "id": 4,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "choose who to drink",
+          "id": 7,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Those with a tattoo, drink!",
+          "id": 10,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Last person that went to the loo, drink!",
+          "id": 13,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "drink!",
+          "id": 16,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "If you've kissed the same gender, drink!",
+          "id": 55,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "If you have cried in the past month, drink!",
+          "id": 61,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Drink for every one sibling you have",
+          "id": 67,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Last person to touch the floor drinks!",
+          "id": 94,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "The one who visited the most countries, drink!",
+          "id": 97,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "The one who visited the least amount of countries, drink!",
+          "id": 100,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Who can speak the most languages? Drink!",
+          "id": 103,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Wearing glasses? Drink!",
+          "id": 112,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Last person to raise their hand and say \"meow\", drinks!",
+          "id": 124,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Ate rice today? Drink!",
+          "id": 142,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Chug your drink. Bottom's up!",
+          "id": 148,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Everybody bottom's up!",
+          "id": 151,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Choose someone to bottom's up!",
+          "id": 154,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Last person to balance on one leg, drinks!",
+          "id": 169,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "For one round, everyone converse without making eye contact",
+          "id": 208,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Drink if you've been to a music concert",
+          "id": 220,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Toss a coin. If you guessed correctly, everybody else drinks.",
+          "id": 223,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Drink if you never gone surfing.",
+          "id": 319,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Drink if you never broken a bone.",
+          "id": 322,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Drink if you have ruined someone else�s vacation.",
+          "id": 325,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Drink if you tried to cut my own hair.",
+          "id": 328,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Drink if you have dyed your hair a crazy color.",
+          "id": 331,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Drink if you have had a physical fight with your best friend.",
+          "id": 334,
+          "phase": 1,
+          "isDone": false
+        }
+      ]
+    }
+  },
+  {
+    "Truth": {
+      "percentage": 40,
+      "tasks": [
+        {
+          "name": "Have you peed in pool before?",
+          "id": 20,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What�s the most embarrassing thing you�ve ever done while drunk?",
+          "id": 23,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What's your guilty pleasure?",
+          "id": 35,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "How many have you slept with?",
+          "id": 38,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "The most recent lie you told",
+          "id": 41,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Weirdest place that you did it?",
+          "id": 44,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Celebrity you masturbated to",
+          "id": 47,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "How many people have you sent nudes to?",
+          "id": 59,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What's your biggest fear?",
+          "id": 65,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Name three countries in five seconds",
+          "id": 74,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Two countries beginning with the letter D",
+          "id": 77,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What is your wildest fetish?",
+          "id": 80,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What's something you're glad your parents don't know?",
+          "id": 83,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Have you ever cheated on someone?",
+          "id": 89,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What's the worst intimate experience you've had?",
+          "id": 131,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Who would you like to kiss in this room? If they feel the same way, kiss!",
+          "id": 134,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What's the worst date you've been on?",
+          "id": 146,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Have you ever lied to get out of a bad date?",
+          "id": 164,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Name three animals beginning with C",
+          "id": 200,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Top three turn ons",
+          "id": 212,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Tell us about your first kiss!",
+          "id": 215,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Who here has the nicest bum?",
+          "id": 218,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Who is a person you most regret kissing?",
+          "id": 227,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What's the naughtiest thing you've done in public?",
+          "id": 230,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What do most people think is true about you, but isn�t?",
+          "id": 233,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What do most people think is true about you, but isn�t?",
+          "id": 239,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Name a country that starts with an A, but doesn't end with A",
+          "id": 242,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What is something your friends would never expect that you do?",
+          "id": 248,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Name 3 zombie films!",
+          "id": 251,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What is the silliest thing you have an emotional attachment to?",
+          "id": 254,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What is the most embarrassing thing your parents have caught you doing?",
+          "id": 257,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "When was the most inappropriate time you farted?",
+          "id": 260,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "What is the most embarrassing thing in your room?",
+          "id": 266,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Tell us about the last time someone unexpectedly walked in on you while you were naked.",
+          "id": 269,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Tell us something you don�t want the person on the left to know.",
+          "id": 272,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "famous director or a famous actor?",
+          "id": 338,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "live in a cave or live in a tree house?",
+          "id": 341,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "be able to teleport anywhere or be able to read minds?",
+          "id": 344,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "be beautiful/handsome but stupid or intelligent but ugly?",
+          "id": 347,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "never be able to wear pants or never be able to wear shorts?",
+          "id": 350,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "super sensitive taste or super sensitive hearing?",
+          "id": 353,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "have out of control body hair or a strong, pungent body odor?",
+          "id": 356,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "accidentally be responsible for the death of a child or accidentally be responsible for the deaths of three adults?",
+          "id": 359,
+          "phase": 1,
+          "isDone": false
+        }
+      ]
+    }
+  },
+  {
+    "Dares": {
+      "percentage": 40,
+      "tasks": [
+        {
+          "name": "Last person to touch the wall drinks",
+          "id": 27,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Rice cooker/pressure cooker",
+          "id": 30,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "White underwear/knickers",
+          "id": 33,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Take/eat lime with your drink or else drink double",
+          "id": 51,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Eat one teaspoon of salt",
+          "id": 54,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Take one piece of clothing off or drink",
+          "id": 72,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Tell a joke... or drink",
+          "id": 87,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Touch your nose with your tongue!",
+          "id": 93,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Shuffle and drink!",
+          "id": 108,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Do the Gangnam style dance while drinking",
+          "id": 111,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "For one round, everyone sing everything you talk",
+          "id": 117,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "For one round, everyone talk at a high pitch!",
+          "id": 120,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Add on \"fuck that\" to the end of everything you say, for one round",
+          "id": 123,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Send a voice note to a chosen person by the team singing Let It Go",
+          "id": 129,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Speak in a british accent... but in your native language!",
+          "id": 138,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Recite the alphabet backwards starting from J",
+          "id": 141,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Take a sip from everyone's drink",
+          "id": 159,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Do a dance move from a music video... If the team can't guess, then drink",
+          "id": 162,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Do 5 squats with one leg!",
+          "id": 168,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Compliment the person on your right",
+          "id": 174,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Keep 3 ice cubes in your mouth until they melt",
+          "id": 177,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Say something dirty to the person on your left",
+          "id": 180,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Yell out the first word that comes to your mind",
+          "id": 183,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Keep your eyes closed until it's your turn again",
+          "id": 186,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Do your best moon walk while drinking!",
+          "id": 189,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Twerk for 10 seconds",
+          "id": 192,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Howl like a wolf for as long as you can",
+          "id": 195,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Drink without using your hands",
+          "id": 198,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Pole dance with an imaginary pole",
+          "id": 204,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Love shot with the person across you",
+          "id": 207,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Lick your elbow! If you can't, then drink!",
+          "id": 237,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Draw the person on your right",
+          "id": 246,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Do the Macarena dance",
+          "id": 264,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Attempt to do a magic trick.",
+          "id": 276,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Be someone�s pet for the next 5 minutes.",
+          "id": 279,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Attempt to break dance for 30 seconds.",
+          "id": 282,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Let the group give you a new hairstyle.",
+          "id": 285,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Do the worm.",
+          "id": 288,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Sniff the armpits of everyone in the room.",
+          "id": 291,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Belly dance like your life depended on it.",
+          "id": 294,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Play a song on by slapping your butt cheeks till someone guesses the song.",
+          "id": 297,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Drink a small cup or shot of a concoction that the group makes. (Don�t make anything that might cause bodily harm. No visits to the emergency room.).",
+          "id": 300,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Make every person in the group smile, keep going until everyone has cracked a smiled.",
+          "id": 303,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Try to juggle 2 or 3 items of the group�s choosing.",
+          "id": 306,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Walk on your hands from one side of the room to the other. You can ask someone to hold your legs if necessary.",
+          "id": 309,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Get slapped on the face by the person of your choosing.",
+          "id": 312,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Seduce a member of the same gender in the group.",
+          "id": 315,
+          "phase": 1,
+          "isDone": false
+        },
+        {
+          "name": "Crawl race with the person on your right",
+          "id": 318,
+          "phase": 1,
+          "isDone": false
+        }
+      ]
+    }
+  }
+]
