@@ -95,16 +95,6 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
-          name: 'Name three countries in five seconds',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Two countries beginning with the letter D',
-          phase: 1,
-          isDone: false,
-        },
-        {
           name: 'What is your wildest fetish?',
           phase: 1,
           isDone: false,
@@ -141,11 +131,6 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
-          name: 'Name three animals beginning with C',
-          phase: 1,
-          isDone: false,
-        },
-        {
           name: 'Top three turn ons',
           phase: 1,
           isDone: false,
@@ -177,11 +162,6 @@ const Playground = ({route}: Props) => {
         },
         {
           name: "What do most people think is true about you, but isn't?",
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: "Name a country that starts with an A, but doesn't end with A",
           phase: 1,
           isDone: false,
         },
@@ -282,17 +262,7 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
-          name: 'Rice cooker/pressure cooker',
-          phase: 1,
-          isDone: false,
-        },
-        {
           name: 'White underwear/knickers',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Take/eat lime with your drink or else drink double',
           phase: 1,
           isDone: false,
         },
@@ -302,12 +272,7 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
-          name: 'Take one piece of clothing off or drink',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Tell a joke... or drink',
+          name: 'Take one piece of clothing off',
           phase: 1,
           isDone: false,
         },
@@ -354,11 +319,6 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
-          name: 'Recite the alphabet backwards starting from J',
-          phase: 1,
-          isDone: false,
-        },
-        {
           name: "Take a sip from everyone's drink",
           phase: 1,
           isDone: false,
@@ -386,11 +346,6 @@ const Playground = ({route}: Props) => {
         },
         {
           name: 'Say something dirty to the person on your left',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Yell out the first word that comes to your mind',
           phase: 1,
           isDone: false,
         },
@@ -498,22 +453,6 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
-          name: "Try to juggle 2 or 3 items of the group's choosing.",
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name:
-            'Walk on your hands from one side of the room to the other. You can ask someone to hold your legs if necessary.',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Get slapped on the face by the person of your choosing.',
-          phase: 1,
-          isDone: false,
-        },
-        {
           name: 'Seduce a member of the same gender in the group.',
           phase: 1,
           isDone: false,
@@ -528,6 +467,11 @@ const Playground = ({route}: Props) => {
     drink: {
       percentage: 20,
       tasks: [
+        {
+          name: 'who is the sexiest person in the room, everyone close their eyes, and you go and kiss them',
+          phase: 1,
+          isDone: false,
+        },
         {
           name: 'everybody drink',
           phase: 1,
@@ -604,11 +548,6 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
-          name: 'Ate rice today? Drink!',
-          phase: 1,
-          isDone: false,
-        },
-        {
           name: "Chug your drink. Bottom's up!",
           phase: 1,
           isDone: false,
@@ -670,6 +609,130 @@ const Playground = ({route}: Props) => {
         },
         {
           name: 'Drink if you have had a physical fight with your best friend.',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Kiss the person on your right',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Strip tease your upper body',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Give a lap dance do the person of your choosing',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'In this room, whom do you want to fuck same gender.',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Act out your fav sex position',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Either get gangbanged by black guys, or get blowjob by a shark',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Choose two people to kiss in this room',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Spank the person on your left',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Kiss everyone in the room one by one',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'If this is the end of the world, and the people in the room are the only ones alive, who would you pick for living together with forever',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'If you get your gender swapped, what would be the first thing you do',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Who do you think has the biggest dick in the room',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'If you had to fuck one person in the room, would you be top or bottom',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Last time you had masturbated, tell the story',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Call your ex',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'give back massage to person on your left',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Go blindfold and guess the body part by touching',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'If you have the power to choose, would you fuck five people or one',
+          phase: 1,
+          isDone: false,
+        },        {
+          name: 'If you die in next five hours, what would you like to do',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'If you had to choose between your mom or your partner during a fire, who would you choose',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'What is the most efficient way to commit suicide',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Would you rather be forever alone, or lost a family member',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'try to seduce the person on your left',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'what are your top 3 turn ons and offs',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'would you rather loose a limb or eyesight',
           phase: 1,
           isDone: false,
         },
