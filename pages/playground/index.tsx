@@ -32,22 +32,107 @@ type DataType = {
 const Playground = ({route}: Props) => {
   const {players} = route.params;
   const [turn, updateTurn] = useState(0);
-
-  const [questions, updateQuestions] = useState([
-    {name: '', phase: 1, isDone: true},
-  ]);
-
-  const getNextPlayer = () => {
-    if (turn === players.length) {
-      updateTurn(0);
-    }
-    return players[turn];
-  };
-
-  const data: DataType = {
+  const [data, updateData] = useState<DataType>({
     truth: {
-      percentage: 40,
+      percentage: 20,
       tasks: [
+        {
+          name: 'what are your top 3 turn ons and offs',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'would you rather loose a limb or eyesight',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Call your ex',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'give back massage to person on your left',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Go blindfold and guess the body part by touching',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name:
+            'If you have the power to choose, would you fuck five people or one',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'If you die in next five hours, what would you like to do',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name:
+            'If you had to choose between your mom or your partner during a fire, who would you choose',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'What is the most efficient way to commit suicide',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Would you rather be forever alone, or lost a family member',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name:
+            'If this is the end of the world, and the people in the room are the only ones alive, who would you pick for living together with forever',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name:
+            'If you get your gender swapped, what would be the first thing you do',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Who do you think has the biggest dick in the room',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name:
+            'If you had to fuck one person in the room, would you be top or bottom',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Last time you had masturbated, tell the story',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name:
+            'Either get gangbanged by black guys, or get blowjob by a shark',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'In this room, whom do you want to fuck same gender.',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name:
+            'what is one thing that you think this group would judge you for the most',
+          phase: 1,
+          isDone: false,
+        },
         {
           name: 'Have you peed in pool before?',
           phase: 1,
@@ -211,16 +296,6 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
-          name: 'famous director or a famous actor?',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'live in a cave or live in a tree house?',
-          phase: 1,
-          isDone: false,
-        },
-        {
           name: 'be able to teleport anywhere or be able to read minds?',
           phase: 1,
           isDone: false,
@@ -256,6 +331,58 @@ const Playground = ({route}: Props) => {
     dare: {
       percentage: 40,
       tasks: [
+        {
+          name: 'try to seduce the person on your left',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Choose two people to kiss in this room, and then do it',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Spank the person on your left',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Kiss everyone in the room one by one',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Act out your fav sex position',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Kiss the person on your right',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Strip tease your upper body',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Give a lap dance do the person of your choosing',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name:
+            'who is the sexiest person in the room, everyone close their eyes, and you go and kiss them',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name:
+            'count down from 30 skipping multiples of 4, drink for every mistake ',
+          phase: 1,
+          isDone: false,
+        },
         {
           name: 'Last person to touch the wall drinks',
           phase: 1,
@@ -465,10 +592,10 @@ const Playground = ({route}: Props) => {
       ],
     },
     drink: {
-      percentage: 20,
+      percentage: 40,
       tasks: [
         {
-          name: 'who is the sexiest person in the room, everyone close their eyes, and you go and kiss them',
+          name: 'every person who is wearing specs or black color, drink',
           phase: 1,
           isDone: false,
         },
@@ -612,145 +739,46 @@ const Playground = ({route}: Props) => {
           phase: 1,
           isDone: false,
         },
-        {
-          name: 'Kiss the person on your right',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Strip tease your upper body',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Give a lap dance do the person of your choosing',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'In this room, whom do you want to fuck same gender.',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Act out your fav sex position',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Either get gangbanged by black guys, or get blowjob by a shark',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Choose two people to kiss in this room',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Spank the person on your left',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Kiss everyone in the room one by one',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'If this is the end of the world, and the people in the room are the only ones alive, who would you pick for living together with forever',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'If you get your gender swapped, what would be the first thing you do',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Who do you think has the biggest dick in the room',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'If you had to fuck one person in the room, would you be top or bottom',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Last time you had masturbated, tell the story',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Call your ex',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'give back massage to person on your left',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Go blindfold and guess the body part by touching',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'If you have the power to choose, would you fuck five people or one',
-          phase: 1,
-          isDone: false,
-        },        {
-          name: 'If you die in next five hours, what would you like to do',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'If you had to choose between your mom or your partner during a fire, who would you choose',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'What is the most efficient way to commit suicide',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Would you rather be forever alone, or lost a family member',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'try to seduce the person on your left',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'what are your top 3 turn ons and offs',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'would you rather loose a limb or eyesight',
-          phase: 1,
-          isDone: false,
-        },
       ],
     },
+  });
+
+  const [questions, updateQuestions] = useState([
+    {name: '', phase: 1, isDone: true},
+  ]);
+
+  const getNextPlayer = () => {
+    if (turn === players.length) {
+      updateTurn(0);
+    }
+    return players[turn];
   };
 
   const getTaskBatch = () => {
     const taskBatch: Array<TaskType> = [];
     Object.keys(data).forEach((category) => {
-      const numTasks = data[category].percentage / 10;
       var remainingTasks = data[category].tasks.filter((task) => !task.isDone);
+      if (remainingTasks.length < 2) {
+        for (let i = 0; i < data[category].tasks.length; i++) {
+          data[category].tasks[i].isDone = false;
+        }
+      }
+      const numTasks = data[category].percentage / 5;
       for (let i = 0; i < numTasks; i++) {
-        remainingTasks = remainingTasks.filter((task) => !task.isDone);
-        const randIndex = Math.floor(Math.random() * remainingTasks.length);
-        taskBatch.push(remainingTasks[randIndex]);
+        let found = false;
+        while (!found) {
+          const randIndex = Math.floor(
+            Math.random() * (data[category].tasks.length - 0) + 0,
+          );
+          if (!data[category].tasks[randIndex].isDone) {
+            taskBatch.push({...data[category].tasks[randIndex]});
+            data[category].tasks[randIndex].isDone = true;
+            found = true;
+          }
+        }
       }
     });
+    updateData(data);
     return taskBatch;
   };
 
@@ -761,7 +789,6 @@ const Playground = ({route}: Props) => {
     ) {
       const qs = getTaskBatch();
       updateQuestions(qs);
-      qs[0].isDone = true;
       return qs[0].name;
     } else {
       const remainingQuestions = questions.filter((q) => !q.isDone);

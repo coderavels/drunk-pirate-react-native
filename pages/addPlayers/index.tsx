@@ -116,6 +116,7 @@ const styles = StyleSheet.create({
   playerName: {
     height: 40,
     width: '50%',
+    backgroundColor: '#ededed',
   },
   numPlayersSection: {
     flexDirection: 'row',
