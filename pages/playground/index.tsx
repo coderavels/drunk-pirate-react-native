@@ -30,7 +30,7 @@ type DataType = {
 };
 
 const Playground = ({route}: Props) => {
-  const {players} = route.params;
+  const [players] = useState(route.params.players);
   const [turn, updateTurn] = useState(0);
   const [data, updateData] = useState<DataType>({
     truth: {
@@ -332,46 +332,6 @@ const Playground = ({route}: Props) => {
       percentage: 40,
       tasks: [
         {
-          name: 'try to seduce the person on your left',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Choose two people to kiss in this room, and then do it',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Spank the person on your left',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Kiss everyone in the room one by one',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Act out your fav sex position',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Kiss the person on your right',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Strip tease your upper body',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Give a lap dance do the person of your choosing',
-          phase: 1,
-          isDone: false,
-        },
-        {
           name:
             'who is the sexiest person in the room, everyone close their eyes, and you go and kiss them',
           phase: 1,
@@ -389,7 +349,7 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
-          name: 'White underwear/knickers',
+          name: 'Give a lap dance do the person of your choosing',
           phase: 1,
           isDone: false,
         },
@@ -405,6 +365,12 @@ const Playground = ({route}: Props) => {
         },
         {
           name: 'Touch your nose with your tongue!',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name:
+            'send a nsfw selfie to someone you havent talked to in a year or more',
           phase: 1,
           isDone: false,
         },
@@ -451,6 +417,11 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
+          name: 'Kiss everyone in the room one by one',
+          phase: 1,
+          isDone: false,
+        },
+        {
           name:
             "Do a dance move from a music video... If the team can't guess, then drink",
           phase: 1,
@@ -467,7 +438,17 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
+          name: 'Spank the person on your left',
+          phase: 1,
+          isDone: false,
+        },
+        {
           name: 'Keep 3 ice cubes in your mouth until they melt',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'try to seduce the person on your left',
           phase: 1,
           isDone: false,
         },
@@ -507,6 +488,16 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
+          name: 'Act out your fav sex position',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'moan how you think your fav animal would moan',
+          phase: 1,
+          isDone: false,
+        },
+        {
           name: 'Love shot with the person across you',
           phase: 1,
           isDone: false,
@@ -542,6 +533,17 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
+          name:
+            'give a hickie on neck to the person who has the most cash right now.',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Choose two people to kiss in this room, and then do it',
+          phase: 1,
+          isDone: false,
+        },
+        {
           name: 'Let the group give you a new hairstyle.',
           phase: 1,
           isDone: false,
@@ -552,12 +554,27 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
+          name: 'give wedgie to person one away on your right',
+          phase: 1,
+          isDone: false,
+        },
+        {
           name: 'Sniff the armpits of everyone in the room.',
           phase: 1,
           isDone: false,
         },
         {
+          name: 'Strip tease your upper body',
+          phase: 1,
+          isDone: false,
+        },
+        {
           name: 'Belly dance like your life depended on it.',
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'swap your underwear with the person one away on your left',
           phase: 1,
           isDone: false,
         },
@@ -568,8 +585,18 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
+          name: 'get tickled by the group for 1 minute',
+          phase: 1,
+          isDone: false,
+        },
+        {
           name:
             "Drink a small cup or shot of a concoction that the group makes. (Don't make anything that might cause bodily harm. No visits to the emergency room.).",
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Kiss the person on your right',
           phase: 1,
           isDone: false,
         },
@@ -589,18 +616,24 @@ const Playground = ({route}: Props) => {
           phase: 1,
           isDone: false,
         },
+        {
+          name:
+            'if you are a guy, demonstrate how to use a vibrator on yourself. If you are female, teach the person across you the same',
+          phase: 1,
+          isDone: false,
+        },
       ],
     },
     drink: {
       percentage: 40,
       tasks: [
         {
-          name: 'every person who is wearing specs or black color, drink',
+          name: 'everybody drink',
           phase: 1,
           isDone: false,
         },
         {
-          name: 'everybody drink',
+          name: 'for 1 round, drink for everyone"s turn',
           phase: 1,
           isDone: false,
         },
@@ -611,11 +644,6 @@ const Playground = ({route}: Props) => {
         },
         {
           name: 'choose who to drink',
-          phase: 1,
-          isDone: false,
-        },
-        {
-          name: 'Those with a tattoo, drink!',
           phase: 1,
           isDone: false,
         },
@@ -680,6 +708,11 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
+          name: 'every person who is wearing specs or black color, drink',
+          phase: 1,
+          isDone: false,
+        },
+        {
           name: "Everybody bottom's up!",
           phase: 1,
           isDone: false,
@@ -700,7 +733,17 @@ const Playground = ({route}: Props) => {
           isDone: false,
         },
         {
+          name: 'White underwear/knickers? drink',
+          phase: 1,
+          isDone: false,
+        },
+        {
           name: "Drink if you've been to a music concert",
+          phase: 1,
+          isDone: false,
+        },
+        {
+          name: 'Those with a tattoo, drink!',
           phase: 1,
           isDone: false,
         },
@@ -747,13 +790,6 @@ const Playground = ({route}: Props) => {
     {name: '', phase: 1, isDone: true},
   ]);
 
-  const getNextPlayer = () => {
-    if (turn === players.length) {
-      updateTurn(0);
-    }
-    return players[turn];
-  };
-
   const getTaskBatch = () => {
     const taskBatch: Array<TaskType> = [];
     Object.keys(data).forEach((category) => {
@@ -783,26 +819,28 @@ const Playground = ({route}: Props) => {
   };
 
   const getNextTask = () => {
+    let nextQuestion: string;
     if (
       questions.length === 0 ||
       questions.filter((q) => !q.isDone).length === 0
     ) {
       const qs = getTaskBatch();
       updateQuestions(qs);
-      return qs[0].name;
+      nextQuestion = qs[0].name;
     } else {
       const remainingQuestions = questions.filter((q) => !q.isDone);
       const quesIndex = Math.floor(Math.random() * remainingQuestions.length);
       remainingQuestions[quesIndex].isDone = true;
-      return remainingQuestions[quesIndex].name;
+      nextQuestion = remainingQuestions[quesIndex].name;
     }
+    return nextQuestion;
   };
 
   return (
     <SafeAreaView style={styles.safeAreaView}>
       <View style={styles.body}>
         <View style={styles.playerScroll}>
-          <Text>{getNextPlayer()}</Text>
+          <Text>{players[turn]}</Text>
         </View>
         <View style={styles.task}>
           <Text>{getNextTask()}</Text>
@@ -811,7 +849,11 @@ const Playground = ({route}: Props) => {
           <Button
             title={'Play'}
             onPress={() => {
-              updateTurn(turn + 1);
+              if (turn === players.length - 1) {
+                updateTurn(0);
+              } else {
+                updateTurn(turn + 1);
+              }
             }}
           />
         </View>
